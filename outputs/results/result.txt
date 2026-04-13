@@ -1,0 +1,21 @@
+Model: Logistic Regression
+
+Accuracy: 0.7886 (~79%)
+
+Confusion Matrix:
+[[18 25]
+ [ 1 79]]
+
+Classification Report:
+- Class 0 (Rejected):
+  Precision: 0.95
+  Recall: 0.42
+  F1-score: 0.58
+
+- Class 1 (Approved):
+  Precision: 0.76
+  Recall: 0.99
+  F1-score: 0.86
+
+Conclusion:
+The model performs better in predicting loan approvals than rejections due to dataset imbalance. Credit history is a key factor influencing loan approval.
